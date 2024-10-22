@@ -1,0 +1,56 @@
+/* Reset CSS - Pour harmoniser les styles entre navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  body {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Sections principales */
+  section {
+    padding: 60px 0;
+  }
+  
+
+
+
+/* Masquer la barre de défilement dans les navigateurs modernes */
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE et Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
